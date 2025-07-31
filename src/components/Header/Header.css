@@ -1,0 +1,54 @@
+.Header {
+    background: var(--russian-violet-4);
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Header-h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 4rem;
+    min-width: max-content;
+}
+
+.Header-nav {
+    margin: 0;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.Header-nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0 1rem 0 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+li {
+    margin: 0 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Header,
+.Header-nav,
+.Header-nav-list,
+.Header-h1 {
+  color: inherit;
+}
+
+.Header-nav-list a {
+  color: inherit;
+  text-decoration: none;
+}

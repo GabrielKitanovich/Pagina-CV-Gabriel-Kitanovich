@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+  --russian-violet-1: #701a80;
+  --russian-violet-2: #310b48;
+  --russian-violet-3: #200945;
+  --russian-violet-4: #120018;
+  --federal-blue-1: #18084d;
+  --federal-blue-2: #0f0654;
+}
+
+body {
+  background-color: var(--russian-violet-3);
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}

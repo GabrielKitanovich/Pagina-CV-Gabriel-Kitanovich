@@ -1,0 +1,48 @@
+.Footer {
+    background: var(--russian-violet-4);
+    padding: 1rem 2rem;
+    border-top: 1px solid var(--russian-violet-3);
+    text-align: center;
+    margin-top: auto;
+
+}
+
+.Footer-info {
+        display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.Footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Footer-contact-row {
+    margin-top: 0.5rem;
+    
+}
+
+.Footer-contact-title {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.Footer-contact-text {
+    font-weight: 400;
+    font-size: .6rem;
+    margin-bottom: 0.5rem;
+}
+
+.Footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-top;
+    justify-content: space-between;
+}
+
+.Footer-social-title {
+    margin: 0rem 0rem 1rem 0rem;
+}
