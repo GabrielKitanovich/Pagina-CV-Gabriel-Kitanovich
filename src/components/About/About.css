@@ -28,31 +28,21 @@
     line-height: 1.5;
 }
 
+
+
 .About-image-container {
     height: 100%;
     width: 100vh;
-    display: flex; 
+    display: flex;
+    margin: 2.5rem;
+    margin-left: 0;
 }
 
 .About-image {
     width: clamp(120px, 25vw, 300px);
     height: auto;
     border-radius: 15px;
-    margin: 2.5rem 2.5rem;
     display: flex;
     transition: width 0.2s;
     max-width: 100%;
-}
-
-/* Responsivo para pantallas pequeñas */
-@media (max-width: 600px) {
-  .About-image {
-    width: 180px;
-    max-width: 90vw;
-    margin-right: 1rem;
-  }
-  .About-content-container {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
 }
